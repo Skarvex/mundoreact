@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.ssv {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hahap {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.google {
+    margin-top: 50px;
+}
+
+.hr {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    width: 50%;
+}
+
+.tel{
+    line-height: 2.7;
+    font-size: 1.3em;
+}
+
+.soc{
+    line-height: 2.7;
+    font-size: 1.3em;
+}
+
+.linkce {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

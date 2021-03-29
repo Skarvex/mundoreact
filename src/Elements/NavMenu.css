@@ -1,0 +1,98 @@
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  display: block;
+  transform: translatex(-50%);
+  
+}
+
+.container-fluid {
+  padding-right: 0;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+.logonashe {
+  width: 13vmax;
+  padding: 0;
+}
+
+.lalal {
+  margin: 0;
+  
+}
+
+  .navbar-toggler {
+    padding: 0;
+    outline: 0;
+    border: 0;
+    border-radius: 0%;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+@media only screen and (max-width: 1080px)
+{
+     .nav {
+    display: none !important;
+     }
+  }
+
+  @media only screen and (max-width: 1080px)
+  {
+       .anim {
+      text-align: center;
+       }
+    }
+
+.anim {
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.anim::before,
+.anim::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.anim::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  transform: translate(-100%, 50%);
+}
+
+.anim:after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  transform: translate(100%, -50%);
+}
+
+.anim:hover:before,
+.anim:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.anim:hover {
+  color: white;
+}

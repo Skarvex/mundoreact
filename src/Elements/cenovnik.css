@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+section.pricing {
+  background: linear-gradient(to right, #46044c, #2C0184);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing .card {
+  
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.hahah {
+  max-height: 0vh;
+}
+
+.vsk {
+  display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .fft:hover {
+    margin-top: -.50rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 0.9
+    ;
+  }
+}
+
+.shush {
+  height: 54vh;
+}
+.shash {
+  position: absolute;
+  background: linear-gradient(to right, #E0B404, #E0B404);
+  color: white !important;
+  bottom: 15px;
+  max-width: 89%;
+}
+
+@media only screen and (min-width: '768px'){
+  .tsparticles-canvas-el {
+    display: none;
+ }
+}

@@ -1,0 +1,113 @@
+.paragrafce {
+    max-width: 30%;
+    text-align: justify;
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+    .paragrafce {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .paragrafce {
+        margin-left: 80px;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .paragrafce {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    .paragrafce {
+        margin-left: 0px;
+    }
+}
+
+.ffs {
+    color: white;
+    background: linear-gradient(to right, #46044c, #46044c);
+    color: white;
+    border-radius: 25px;
+}
+
+h5 {
+    color: white;
+}
+
+
+
+/*  */
+
+
+.paragrafcel {
+    max-width: 30%;
+    text-align: justify;
+    margin-right: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+    .paragrafcel {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .paragrafcel {
+        margin-right: 80px;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .paragrafcel {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    .paragrafcel {
+        margin-right: 0px;
+    }
+}
+
+.pafka {
+    width: 20vw;
+}
+
+.ikona {
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.ssss {
+    margin-bottom: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fft {
+  border-radius: 1rem;
+  height: 30vh;
+}
+
+.card {
+    height: 95%;
+}
+
+@media (max-width: 992px) {
+    .card {
+        height: 95%;
+    }
+}
+
+.hrp {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    width: 50%;
+}
