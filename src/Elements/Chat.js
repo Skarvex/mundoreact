@@ -5,7 +5,7 @@ function Chat() {
     return (
         <div>
             <MessengerCustomerChat
-    pageId="112102534294437" appId="247227543770710" themeColor='#46044c'/>
+    pageId="112102534294437" appId="247227543770710" themeColor='#46044c' shouldShowDialog='true'/>
         </div>
     )
 }

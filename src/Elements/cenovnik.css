@@ -5,6 +5,51 @@ section.pricing {
   font-family: 'Montserrat', sans-serif;
 }
 
+.pozadina {
+  background: linear-gradient(to right, #46044c, #2C0184);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.butonce {
+  border-radius: 25px !important;
+  background-color: #e93a7d !important;
+  outline: none !important;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  #tsparticles {
+    display: none;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
 .pricing .card {
   
   border: none;

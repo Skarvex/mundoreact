@@ -73,7 +73,7 @@ function Cenovnik() {
         </Modal.Header>
         <Modal.Body className='ubavfont pozadina text-white text-center'>Контактирајте не на телефонскиот број, e-mail, или на било која од оставените социјални мрежи.<br/><strong>-MojWebsite.mk-</strong></Modal.Body>
         <Modal.Footer className='pozadina border-0  justify-content-center'>
-          <Button className='shashs justify-content-middle butonce' onClick={handleClose}>
+          <Button className='shashs justify-content-middle butonce border-0' onClick={handleClose}>
             Во ред
           </Button>
         </Modal.Footer>
